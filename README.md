@@ -1,20 +1,20 @@
-## Порядок выполнения  
-# Первые 3 пункта задания  
+# Порядок выполнения  
+## Первые 3 пункта задания  
 ansible-playbook -i inventory.ini setup-ssh.yml
 
-# Весь 4 пункт  
+## Весь 4 пункт  
 ansible-playbook -i inventory.ini postgres-setup.yml
 
-# 5 пункт задания  
+## 5 пункт задания  
 ansible-playbook -i inventory.ini nginx-setup.yml
 
-# 6 пункт задания  
+## 6 пункт задания  
 ansible-playbook -i inventory.ini access-setup.yml
 
-# 7 пункт задания  
+## 7 пункт задания  
 ansible-playbook -i inventory.ini backup-setup.yml
 
-## Особенности  
+# Особенности  
 inventory файл дожен содержать следующие имена хостов  
 hostA.renue 
 hostB.renue  
